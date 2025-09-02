@@ -1,0 +1,27 @@
+{
+    "name": "lightweight/framework",
+    "description": "A lightweight PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name"
+        }
+    ],
+    "require": {
+        "php": "^8.2 || ^8.3 || ^8.4",
+        "laminas/laminas-db": "^2.20",
+        "symfony/mailer": "^7.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Paginator\\": "core/paginator/"
+        }
+    }
+}
